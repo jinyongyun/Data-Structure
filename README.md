@@ -1,5 +1,9 @@
 # Data-Structure
 Data Structure container
+
+
+# Data-Structure
+Data Structure container
 01. 배열과 링크드 리스트
 
 배열
@@ -16,30 +20,11 @@ index에 의해 각각의 요소들이 참조되고
 지우려는 요소가 담긴 칸부터 한 칸씩 당긴다
 --insert와 같이 배열 안에 있는 요소만큼
 
+<img width="296" alt="image" src="https://user-images.githubusercontent.com/102133961/174471111-902a1778-7cec-4e4c-b377-d89183b43fe9.png">
+<img width="279" alt="image" src="https://user-images.githubusercontent.com/102133961/174471114-b82dcac5-a28f-48af-bf39-7620dc368782.png">
+<img width="279" alt="image" src="https://user-images.githubusercontent.com/102133961/174471118-f7c59c4e-9169-4c60-90d1-b344d2ad2868.png">
+<img width="279" alt="image" src="https://user-images.githubusercontent.com/102133961/174471120-c6a3d8c4-1b29-4719-9bb1-76d39b49d3ea.png">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- forLveevolifii =Ni
- 
 *동적인 배열로는 vector가 있다
 
 singly 링크드 리스트
@@ -80,14 +65,15 @@ cost가 요소의 개수만큼 든다
 노드를 가리킬 새로운 포인터를 생성 후 그 포인터를 tail전까지(next가 null이 아닐때까지) 이동
 tail은 자기 자신 가리키고 이전 tail 삭제
 자신의 next는 null을 가리키도록
-  
- 
- 
- 
- 
- 
- 
-
+![image](https://user-images.githubusercontent.com/102133961/174471126-bf690555-55e0-41e2-b09c-df3ff5fe19a1.png)
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471132-1782b694-cf55-4429-88d9-027133edf452.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471134-3e340dd0-63a8-4544-ba63-6fd3afa75a4b.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471139-b59c67ad-6160-4cd2-8842-325df9353154.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471143-8db09080-56f7-4e47-ba2f-b72ffaf403f9.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471147-c191abdb-45fd-4988-b8f0-482fffc48f92.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471151-d3f008df-8773-4e5b-b00c-165b952d4757.png">
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/102133961/174471154-c0dcca5c-c4db-457c-84da-3fd5fe6cbab0.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471155-051b1760-eb3e-4ee0-94cb-f2eed983365c.png">
 Doubly LInked List
 List ADT에 관한 더 일반적인 설명을 제공한다
 element
@@ -223,18 +209,13 @@ O(n)
 방법2. 기존 크기의 두배가 늘어나게 할당(doubling strategy)
 O(1)
 -당연히 새로운 배열이라 할당받은 배열의 주소는 기존 배열 주소와 다름
- 
- 
- 
- 
-
+![image](https://user-images.githubusercontent.com/102133961/174471164-d79e6a7c-097b-4b25-9f23-479642e7c9a9.png)
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471168-bc26d81c-0ffa-4ef1-82e3-3b319bde7420.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471171-2addaeb5-f20d-4fae-b9ba-ff368b62fdfc.png">
 const int& e는 insert함수 내부에서 참조자를 이용한 값 변경이 일어나지 않을 것을 의미
 즉 e가 변화되지 않을 것이다
- 
- 
- 
-
-
+![image](https://user-images.githubusercontent.com/102133961/174471173-14b42af2-66f3-4ed2-8089-1d58810f8ae6.png)
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471174-1615ada8-38e5-4c8c-ae09-98bff8697df2.png">
 Position,List
 
 position ADT
@@ -300,16 +281,16 @@ atIndex(i) 인덱스에 해당하는 포지션 값 반환
 
 어떻게 이게 가능하냐?
 position을 사용하는 함수와 index와 position을 반환하는 함수가 같이 있어서
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
+![image](https://user-images.githubusercontent.com/102133961/174471177-98170391-48a8-4d96-a27c-399b57a8c151.png)
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471185-209cf560-b460-4273-8dd6-6afc9d7c7387.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471197-fa7b39c5-8c0f-4262-a54e-28f4570a336c.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471203-c13e5983-afd6-4e62-8206-ae4bacf0501b.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471204-4940ff4d-a4c7-400f-ac1a-acb2cd7cf8bb.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471206-2921927a-b0b1-4c05-af88-b7c1047245d4.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471211-38745a10-ae3b-43d7-a9ef-440c96637ced.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471225-419cb670-153d-461c-8af2-374703aa831d.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471229-3f1e3dc4-2223-4078-b2d5-93fc5e6bb053.png">
+<img width="155" alt="image" src="https://user-images.githubusercontent.com/102133961/174471232-7120aacb-e986-49ab-8c12-8285d10a0aeb.png">
 Algorithms Analysis
 
 대부분의 알고리즘은 input objects를 output objects로 바꾼다
@@ -365,8 +346,7 @@ pseudocode를 조사함으로써 우리는 알고리즘에 의해 실행되는 p
 
 Estimating Running Time
 arryMax
- 
-
+![image](https://user-images.githubusercontent.com/102133961/174471240-4562c14c-353c-4c16-b897-6ac027fbd283.png)
 Estimating Running Time
 Algorithm arrayMax는 worst case가 8n-3만큼 나온다
 만약 a가 primitive operation중에서도( 아무리 시간이 동일하다고 하더라도) 가장 빠른거
@@ -450,9 +430,10 @@ data structure의 abstraction이다
 how 어떻게가 아닌 what 무엇이 있는가가 주제
 상세한 설명은 생략
 저장되는 data
-데이터의operations operation 
+데이터의operations
+![image](https://user-images.githubusercontent.com/102133961/174471250-bae386b3-b99a-41e9-acf2-3f2d3cf8e2be.png)
 
-stack interface in c++
+	stack interface in c++
 
 template<typename E>
 class Stack {
@@ -527,15 +508,14 @@ performance
 Limitation
   스택의 최대 사이즈는 미리 정의되어야 하고 바뀔 수 없다
   꽉 찬 스택에 새로운 element를 밀어넣으면 implementation-specifc exception을 일으킬 수 있다
+![image](https://user-images.githubusercontent.com/102133961/174471265-e7506520-c509-4226-a223-a4ccb3d87c54.png)
+
+	     <img width="372" alt="image" src="https://user-images.githubusercontent.com/102133961/174471275-59961109-ed24-4d32-84fe-f9a5daa9b457.png">
 
 
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471306-2d0579ec-120f-4c70-8186-e8d3b6b195f6.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471311-6e209624-2a95-430d-9e99-9a3c0b242a19.png">
 
-
- 
-
-
- 
- 
 Parentheses Matching
 
 각각의 괄호들은 모두 나머지 반 쪽과 매치가 되어야 한다
@@ -599,9 +579,11 @@ while there's another token z
       opStk.push(z)
 repeatOps($);
 return valStk.top()
- 
+![image](https://user-images.githubusercontent.com/102133961/174471322-2ec4481e-652d-467d-9280-6f70a5f010e9.png)
 
-중위 표기법
+<img width="214" alt="image" src="https://user-images.githubusercontent.com/102133961/174471328-8db33354-a01c-40f1-ac0b-bdf2f5518e8a.png">
+
+	       중위 표기법
 연산자를 두 숫자(피연산자) 사이에 쓴다
 후위표기법
 연산자를 피연산자 뒤에 쓴다
@@ -629,14 +611,14 @@ space cost: O(n)
 time cost: O(1)
 
 Q. 싱글리 링크드리스트에서 top으로 head를 쓰는 이유? A. 마지막 원소를 삭제시키는 pop을 비교하자. head를 top으로 두는경우, 1. Node* tmp = head; 2. head → next = head; 3. size =- 1; 4. delete tmp; 를 해주면 되지만, tail을 top으로 두는 경우 1. Node* tmp = tail; 2. for문으로 tail 이전 node 찾아서 tail 할당 3. size —; 4. delete tmp; 의 과정을 해줘야 한다. 이때 tail 이전의 node를 찾기까지 O(n)번 수행되므로, tail을 top으로 두는 것은 head를 top으로 두는것보다 비효율적이다. cf. delete tmp로 기존 head, tail의 주소가 해제됨
- 
+![image](https://user-images.githubusercontent.com/102133961/174471334-4dfda7c8-a4b0-4903-a4e6-24f0b2906cd1.png)
 
- 
- 
+<img width="212" alt="image" src="https://user-images.githubusercontent.com/102133961/174471338-e58c15b8-299a-4995-a06c-08fe0b495adf.png">
 
+<img width="325" alt="image" src="https://user-images.githubusercontent.com/102133961/174471340-4e5edd0f-1420-407e-8607-f8563c067064.png">
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/102133961/174471342-7c421c72-1bcf-4714-9f00-6333775a39b3.png">
 
-
-Queues
+	       Queues
 
 Queue ADT
 queue는 임의의 객체들을 저장한다
@@ -719,9 +701,10 @@ Algorithm dequeue()
 
 Queue interface in C++
 QueueEmpty예외에 대한 정의가 필요
- 
+![image](https://user-images.githubusercontent.com/102133961/174471348-4c806fd6-f5c8-43ec-9e8c-7bf5e57a1f01.png)
+<img width="335" alt="image" src="https://user-images.githubusercontent.com/102133961/174471358-5aa975c4-a8ea-4a70-9cfb-5d5a4c1b0cea.png">
 
-Application: Round Robin Schedulers
+	       Application: Round Robin Schedulers
 
 이 round robin schedulers를 큐를 사용해 반복적으로 수행할 수 있다
 
@@ -733,14 +716,12 @@ CPU 시간을 태스크의 생성 순으로 차례로 분배하는 방식. 태�
 3.   Q.enqueue(e)
 
 요약하면 front에 있는 거 뺀 다음 다시 마지막에 넣어주기
-
- 
- 
- 
- 
- 
-
-
+![image](https://user-images.githubusercontent.com/102133961/174471362-d7e6d378-04ce-4117-aafa-381c712aa894.png)
+<img width="398" alt="image" src="https://user-images.githubusercontent.com/102133961/174471368-2d1975f5-653b-40e0-b0d2-3818951d09db.png">
+<img width="229" alt="image" src="https://user-images.githubusercontent.com/102133961/174471371-91dd149f-e38c-40d3-b443-5a9309ef3755.png">
+<img width="228" alt="image" src="https://user-images.githubusercontent.com/102133961/174471374-44462eff-e938-42c9-87b3-b92fedafb1d2.png">
+<img width="270" alt="image" src="https://user-images.githubusercontent.com/102133961/174471375-ee088096-c0fe-4ac9-b844-d26b25dc433b.png">
+<img width="265" alt="image" src="https://user-images.githubusercontent.com/102133961/174471378-0e2b8c14-ee7a-49c0-a1ad-8f4cf73e533f.png">
 Queue as a linked list
 큐를 singly linked list로 설명할 수 있다
    front 요소가 첫번째 노드에 저장
@@ -748,12 +729,12 @@ Queue as a linked list
 
 space cost: O(n)
 time cost: O(1)
-  
- 
- 
- 
- 
-
+![image](https://user-images.githubusercontent.com/102133961/174471384-7af35909-f592-4227-91cf-474ace9c16e9.png)
+<img width="122" alt="image" src="https://user-images.githubusercontent.com/102133961/174471387-211f1c97-1d48-4ce6-9647-5c5458ceae73.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471390-df50a98d-5a68-4f2e-a264-e71354dc83eb.png">
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/102133961/174471394-05664ccc-9365-468e-b6a7-4e24547fb1e6.png">
+<img width="280" alt="image" src="https://user-images.githubusercontent.com/102133961/174471396-37b85388-b59f-4f67-8c06-c68c94fa8d80.png">
+<img width="236" alt="image" src="https://user-images.githubusercontent.com/102133961/174471398-0de9fae6-6526-42df-bf55-4673a1c1b1f8.png">
 
 Recursion
 The Recursion pattern
@@ -802,8 +783,7 @@ if n=1 then
  return A[0]
  else
   return LinearSum(A, n-1) + A[n-1]
-  
-
+![image](https://user-images.githubusercontent.com/102133961/174471403-8595df41-c329-408a-b516-11a0dee1bcdf.png)
 Reversing an Array
 
 Algorithm ReverseArray(A, i, j):
@@ -854,9 +834,8 @@ Algorithm BinarySum(A,i,n):
 
 Example: Binary Recursive Method
 Problem: 배열 A에 있는 모든 정수를 더해라
- 
-  
-
+![image](https://user-images.githubusercontent.com/102133961/174471411-039d265f-979c-4116-bee3-c2fb88787828.png)
+<img width="361" alt="image" src="https://user-images.githubusercontent.com/102133961/174471413-aa315982-950d-4644-a1e5-d82db62df0f2.png">
 Computing Fibonacci Numbers
 Fibonacci numbers are defined recursively:
  
@@ -868,7 +847,8 @@ Recursive algorithm (first attempt)
         return k
      else 
         return BinaryFib(k-1)+BinaryFib(k-2) 
- 
+![image](https://user-images.githubusercontent.com/102133961/174471416-e1338f6c-984a-410f-a958-1e87bfb7d82f.png)
+<img width="303" alt="image" src="https://user-images.githubusercontent.com/102133961/174471421-273bb2eb-eb50-4f20-a003-c17962d7883a.png">
 
 시간복잡도 O(2^n)
 공간복잡도 O(2^n)
@@ -906,8 +886,9 @@ Application:
 프로그래밍 환경
 
 Tree Terminology(용어)
- 
+![image](https://user-images.githubusercontent.com/102133961/174471430-d78264e9-4df3-4191-acd1-48a931940337.png)
 
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/102133961/174471431-f5e95a8e-d0da-4591-9320-0ff13b1cdcb2.png">
 Root : 최상위 노드. 즉, 부모가 없는 노드. 일반적으로 트리의 access point 는 Root이다.
 Internal node : 내부 노드. child가 적어도 하나 있는 노드
 External node : 단말 노드. 위치상 맨 끝 노드를 의미하며 leaf 라고도 불린다.
@@ -956,10 +937,9 @@ Algorithm preOrder(v)
    visit(v)
  for each child w of v
       preorder(w)
- 
+![image](https://user-images.githubusercontent.com/102133961/174471436-21041d3d-0846-40b9-bcdf-db2ea4bcf2b4.png)
 
-
-	
+<img width="329" alt="image" src="https://user-images.githubusercontent.com/102133961/174471440-484b24c3-c9c8-43ce-b158-af7d0c0255c4.png">
 Postorder Traversal
 
 postorder traversal은 descendants 다음에 들려진다
@@ -970,12 +950,12 @@ Algorithm postOrder(v)
  for each child w of v
     postOrder(w)
   visit(v)
-
-
- 
-  
- 
-
+![image](https://user-images.githubusercontent.com/102133961/174471444-47bd59a5-a632-48cd-b4e4-1e9568523369.png)
+<img width="308" alt="image" src="https://user-images.githubusercontent.com/102133961/174471448-58145314-821f-4184-b5e1-5aff5bdd0adb.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471449-8e639871-ad7b-4bcf-94e1-4a6c1aa0f820.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471451-91fb77eb-94f8-45b4-a7dc-3e5a9c94af57.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471454-770ea00d-8888-4118-81a4-e408f65d8942.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471457-aaeffdff-4062-4c79-ad25-77c9b0a3941a.png">
 Binary Trees
 자식노드가 최대 2개(제대로 된 binary tree는 정확히 2개 가짐-정이진트리 proper binary tree)
 자식노드는 순서화된 짝이다(자식들을 순서로 구분, 즉 좌우반전 트리도 다른 트리)
@@ -988,9 +968,8 @@ Arithmetic expression tree
 Binary tree는 산술식(arithmetic expression)과 관련이 있다
 internal nodes: operators (자식이 적어도 하나)
 external nodes: operands
-
- 
-
+![image](https://user-images.githubusercontent.com/102133961/174471462-08100edd-2b81-417e-99f7-f8f83e4437b1.png)
+<img width="302" alt="image" src="https://user-images.githubusercontent.com/102133961/174471464-2f942911-7c6f-4c81-87db-8948453da8c1.png">
 이런 경우엔 postOrder 방식?
 
 Properties of binary trees
@@ -1105,9 +1084,9 @@ m=(n-1)/2이기에
                                              h <= (n-1)/2
 
 이거 트루냐 아니냐 시험 나올지 모름
+![image](https://user-images.githubusercontent.com/102133961/174471469-15ad23ce-1e47-48c7-b027-22f9052ee644.png)
 
-
- 
+<img width="232" alt="image" src="https://user-images.githubusercontent.com/102133961/174471473-df4c4b11-8146-4e33-ab1b-872654114e75.png">
 Inorder Traversal
 
 binary tree이기에 생긴다
@@ -1133,22 +1112,15 @@ preorder
 inorder
 postorder
 가 전부 있다 -> Euler Tour
- inOrder를 printExpression 재귀 함수로 ) 오타
-
-
-
-
- 
-
-
-
-	
+![image](https://user-images.githubusercontent.com/102133961/174471476-4001386b-f282-4e37-a744-7ff1b3af8332.png)
+<img width="330" alt="image" src="https://user-images.githubusercontent.com/102133961/174471481-e442bf37-a93f-4d7a-af1b-948eb88569ef.png">
 Level order Traversal
 
 인간이 노드를 그리는 순서
 레벨 바이 레벨로 전부 방문
-  
-
+![image](https://user-images.githubusercontent.com/102133961/174471485-494d3d3d-c8db-426e-b6fe-5d47c1e146b7.png)
+<img width="248" alt="image" src="https://user-images.githubusercontent.com/102133961/174471488-8f88b5be-bdf2-4d43-aca6-2375d9eee8ed.png">
+<img width="326" alt="image" src="https://user-images.githubusercontent.com/102133961/174471491-f897ad96-bb9e-4e9f-bf7b-f1c0bbdbfee4.png">
 time O(n)
 space O(레벨의 가장 많은 노드 수w)
 
@@ -1156,11 +1128,14 @@ space O(레벨의 가장 많은 노드 수w)
 *complete binary tree
 위에서 부터 아래로 left 에서 right로 중간에 건너뛰지 않고 생성
 ->이런 경우에는 array based로 생성하는 것이 적합
- 
- 
- 
- 
-Priority Queues
+![image](https://user-images.githubusercontent.com/102133961/174471493-47fc0efc-91d1-459a-9950-1f76ad81b519.png)
+<img width="423" alt="image" src="https://user-images.githubusercontent.com/102133961/174471495-f4f5975e-7367-4b29-b9b5-7d10f7f787af.png">
+<img width="423" alt="image" src="https://user-images.githubusercontent.com/102133961/174471497-2e292cdf-aefa-4249-97f0-fc4874ad6bf9.png">
+<img width="423" alt="image" src="https://user-images.githubusercontent.com/102133961/174471499-08581ced-6349-40c1-be51-b948b89ba321.png">
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/102133961/174471503-77303812-e76f-4512-b6df-e97c23d3a908.png">
+<img width="322" alt="image" src="https://user-images.githubusercontent.com/102133961/174471510-b18e9f68-90ee-45d7-83af-d528043474aa.png">
+
+	       Priority Queues
 sequence- Array
         - Linked list
 stack - Array
@@ -1216,9 +1191,8 @@ p=(1,2)
 q=(2,1)
 여러개의 comparator를 만들어 비교
 클래스에 단일 function만 제작
-
- 
-
+![image](https://user-images.githubusercontent.com/102133961/174471515-2332db2a-45dd-4e21-a6d6-9a8b9d9ddeac.png)
+<img width="327" alt="image" src="https://user-images.githubusercontent.com/102133961/174471521-674176c9-d0b5-4ed3-bdd1-50d40075e242.png">
 sort(list, LeftRight)
 sort(list, BottomUp)
 보통 어떤 ordering 이 필요한 함수에 넘기기 위해 comparator 제작
@@ -1247,14 +1221,13 @@ sorted list -> insertion-sort
 
 Selection- Sort
 1+2+...+n = n(n+1)/2 즉 O(n^2) time
- 
-
-
+![image](https://user-images.githubusercontent.com/102133961/174471529-61f27113-b6e8-486c-ab03-f01360f3baf0.png)
+<img width="307" alt="image" src="https://user-images.githubusercontent.com/102133961/174471532-b64664f2-3945-4a6e-add8-bc3a2d1baaef.png">
 insertion-sort
 빈 공간에 들어가는 경우의 수
 1+2+...+n = n(n+1)/2 
-
- 
+![image](https://user-images.githubusercontent.com/102133961/174471537-1ccda40a-9205-4853-af65-2b3c05510e4a.png)
+<img width="305" alt="image" src="https://user-images.githubusercontent.com/102133961/174471539-0eb1923f-0100-496e-be4e-c9e2e5ac811d.png">
 sequence 말고도 priority queue 라는 extra space를 사용해서 
 O(n) + O(n) = O(2n) = O(n)
 
@@ -1297,7 +1270,7 @@ in-place selection sort
 
 [1 2 3 4 | 5]
 
-
+![image](https://user-images.githubusercontent.com/102133961/174471542-4dad4f00-c36e-48ea-b79f-c28679f27526.png)
 
 Heap
 Recall Priority Queue ADT
@@ -1312,8 +1285,8 @@ empty()
 eraseFront()
 
 Recall PQ.sorting
- 
-
+![image](https://user-images.githubusercontent.com/102133961/174471546-6d98b7c1-3e8c-4be9-beb9-6a929a028c03.png)
+<img width="355" alt="image" src="https://user-images.githubusercontent.com/102133961/174471548-04f80686-1160-4ef2-bb55-444222a7e473.png">
 heaps
 
 heap은 key를 nodes에 저장하고 있는 binary tree이다
@@ -1356,9 +1329,10 @@ w와의 관계는 어떠한 것도 확실하게 정의되지 않는다
 
 
 사실 Heap의 time은 O(h)이기 때문에, 등비수열로 O(logn)
+![image](https://user-images.githubusercontent.com/102133961/174471550-4675897d-1e39-4bc9-8145-77cababfa9e3.png)
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/102133961/174471552-6bcee3bc-37e7-40c1-9bc6-a5e4a78d6cb6.png">
 
- 
-*insert
+insert
 새로운 element 붙이고
 upheap()
 
@@ -1379,11 +1353,9 @@ root노드가 될때까지, 아님 자기보다 작은 key 값을 가진 노드�
 restructure - upheap(). : 
           - downheap() : 
 space는 while 문으로 iterative 하게 구현하면 O(1) extra space
-
- 
-
-
-*remove
+![image](https://user-images.githubusercontent.com/102133961/174471554-27ca6a01-b1e0-447a-a8f9-17c516e202bf.png)
+<img width="313" alt="image" src="https://user-images.githubusercontent.com/102133961/174471557-e14f307c-4270-4e2a-ace8-c465ae74ef35.png">
+remove
 
 라스트 노드랑 swap 
 그 라스트 노드를 삭제 후 리턴
@@ -1401,9 +1373,6 @@ root left right 세 개중 가장 작은 것이 올라감
 PQ 에서 결국 heap sort는 
 O(nlogn) time
 
-
-  
-
 unsorted sequence 로 구현된 pq를 이용한 정렬 (=선택정렬) 과 sorted sequence로 구현된 pq를 이용한 정렬 (=삽입정렬)은 모두 O(n^2) 시간이 걸린다. 같은 방법으로 heap으로 구현된 pq를 이용한 정렬 (= Heap-sort) 시간을 계산해보자!
 Heap-sort 알고리즘
 1단계 : s가 빌 때까지 p에 삽입 한번 삽입하는데에 O(log n) 시간이 걸리므로, n 번 삽입하는데에는 총 O(n log n) 시간이 걸린다.
@@ -1411,11 +1380,10 @@ Heap-sort 알고리즘
 ⇒ heap을 이용한 sort 즉 Heap-sort는 총 O(n log n) 시간이 걸린다.
 <aside> 💡 n이 충분히 크면 O(n^2) 보다 O(nlogn)이 훨씬 효율적이다. (언제나 더 효율적이진 않다는것 주의!) 대소를 비교를 통한 정렬 알고리즘 중 점근분석 시 가장 빠른 알고리즘은 O(n log n) 시간이 걸린다. 따라서 O(n log n) 시간이 걸리는 정렬 알고리즘을 optimal 하다고 표현한다.
 </aside>
- 
 배열(vector) 기반 힙
 힙은 특별한 일이 없으면 배열로 구현된다.
 힙 자체가 완전이진트리이므로 배열로 구현이 충분히 가능하다!
-	복습 : 배열로 구현된 완전이진트리
+•	복습 : 배열로 구현된 완전이진트리
 노드들의 관계를 통해 구현했던 앞선 트리 구현 방법과 달리, 이진트리를 배열로 구현할수도 있다.
 깊이가 같은 노드를 왼쪽에서부터 순서를 매기며 인덱스를 정해준다.
 ex. root : 1번 인덱스 , root_left : 2번 인덱스, root_right : 3번 인덱스
@@ -1452,7 +1420,7 @@ Bottom-up Heap construction
 채워지는 노드들은 left, right 자식을 두개의 힙으로 여기고 힙을 merge 한다.
 (새로운 노드를 루트 자리에 채워놓고 Down heap 진행)
  
-	자세한 구조도
+•	자세한 구조도
  
  
 🤔 Bottom-up Heap construction 을 만드는데에는 얼마의 시간이 걸릴까?
@@ -1474,94 +1442,7 @@ Bottom-up 방식으로 생성되는 힙은 O(n) 시간이 걸린다.
 ⇒ Bottom-up 방식으로 Heap-sort의 1단계의 수행시간을 줄일 수 있음!!
 but, 2단계에서 여전히 O(n log n) 시간이 걸리므로 Heap-sort의 최종 연산시간은 O(n log n)이다.
 
-
-
-
-
-
-
- 
-
-
-
-
- 
-
-
-
-
-
-
-	생성할 때	접근하는 방법	탐색	insert	delete	
-Stack : 배열로 구현	O(n)
-	top
-t라는 index로 마지막 top 표시	탐색 해 봐야 배열이다
-O(1) index로 접근 가능	O(1)
-그냥 t 하나 늘리고 거기에 넣는 거니까	O(1) 
-t하나 줄이고 이전 t 리턴	full이면
-capacity라는 용량 정의해서 size랑 capacity랑 같다
-size는 그냥 t+1
-Stack: Linked list로 구현	그때 그때 만드니까 O(1)	Node* top == head	top만 리턴하면 되니까 O(1)	그냥 top에 추가
-O(1)	top만, 즉 head만 삭제하면 되니까 O(1)	full이 없다
-head나 tail이 같으면 (null로) empty
-Queue: 그냥 배열	O(n)	front
-rear(마지막 원소 다음)	배열->index 접근 O(1)	rear에 넣으면 됨 O(1)	O(1)
-그냥 front+1
-대신 다신 못씀
-왼쪽으로 전부 당기면 O(n)	
-Queue: 원형 배열	O(n)	int front
-int rear(마지막 원소 다음)	O(1) 인덱스 접근	rear에 넣음
-O(1)	dequeue:
-그냥 f 증가
-
-O(1)	
-Queue: 단일 링크드 리스트	O(1)	Node* front(head)
-
-Node* rear(tail)	O(1)	O(1)	O(1)	
-vector: 선형 배열	O(n)	int idx	O(1)	0번 Index에 삽입하면 전부 밀어서 O(n)	0번 인덱스 삭제하면 전부 당겨서
-O(n)	
-vector:원형배열	O(n)	int idx	O(1)	0번 인덱스 삽입하면 O(1)
-나머지는 O(n)	0번 인덱스 삭제하면 O(1)
-나머지는 
-O(n)	
-List: doubly linked list	O(1)	begin과 end로 list의 처음과 마지막 원소의 다음 주소 리턴	O(1)
-주로 이터레이터를 통해 탐색 후 position 을 받아 바로 접근	O(1)
-
-해당 position에 iterator를 통해 바로 접근	O(1)
-해당 position에 iterator를 통해 바로 접근	
-Sequence:원형 배열	O(n)	begin()
-end()	인덱스를 이용해 탐색
-O(1)	O(n)	O(n)	배열의 원소로 position과 index 모두 가짐
-Sequence:이중 연결 리스트	O(1)	begin()
-end()	indexOf(p)
-atIndex(i)에서 일일히 다 비교해서
-O(n)	O(1)
-Iterator 의 포지션 이용	O(1)
-Iterator 의 포지션 이용	배열의 원소로 position만 갖고 index는 앞의 원소 개수로 판별
-Selection Sort(unsorted list)	O(n^2)
-Insertion sort(sorted list)	O(n^2) 2차 시기에서 O(n) 결국은 O(n^2)
-
-best 이미 정렬이 되어있을 때, O(n)
-Inplace selection sort	O(n^2)
-Inplace Insertion sort	O(n^2)
-heap sort	bottom-up 생성에는 O(n)
-p에서 S로 remove할 때, 결국 O(logn)이 n번 발생하므로 O(nlogn)
-Inplace heap sort	O(nlogn)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	       
 Maps & Dictionaries
 
 Maps
@@ -1600,18 +1481,6 @@ A Simple List-Based Map
 -우리는 맵에 있는 아이템들을 더블리 링크드 리스트를 기저로 한 리스트 S에 저장할 수 있다
 
 Find Algorithm in List-based Map
-
- 
-
-
-
-
-Put Algorithm in List-based Map
- 
-
-
-Erase Algorithm in List-based Map
- 
 Performance of a List-Based Map
 Performance:
 put은 sequence안에 그것이 이미 있나 결정할 필요가 있어서 O(n) time이 걸린다
@@ -1689,4 +1558,3 @@ Binary Search Tree
 key(u) <= key(v) <= key(w)
 여기서 v의 자식이 u,w
 최악의 경우 height가 n만큼 커짐
-![image](https://user-images.githubusercontent.com/102133961/174470950-42c4f6a1-e53c-4092-9ba8-6f31e9e5c664.png)
